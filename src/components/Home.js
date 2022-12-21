@@ -14,9 +14,9 @@ import { useInView } from "framer-motion";
 import Title from "./Title";
 import { LazyLoadComponent } from "react-lazy-load-image-component";
 // import { Faq } from "./Card/Faq";
-import AccordionTitle from "./Card/AccordionTitle";
-import ContentSeo from "./Card/Project/ContentSeo";
-import ContentSeo1 from "./Card/Project/ContentSeo1";
+// import AccordionTitle from "./Card/AccordionTitle";
+// import ContentSeo from "./Card/Project/ContentSeo";
+// import ContentSeo1 from "./Card/Project/ContentSeo1";
 
 function Section({ children }) {
   const ref = useRef(null);
@@ -62,11 +62,11 @@ function Home() {
         <Section>
           <ProjectDisposal />
         </Section>
-        <Section>
+        {/* <Section>
           <ContentSeo />
           <ContentSeo1 />
           <AccordionTitle />
-        </Section>
+        </Section> */}
       </LazyLoadComponent>
     </div>
   );

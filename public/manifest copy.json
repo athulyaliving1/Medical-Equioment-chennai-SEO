@@ -1,6 +1,6 @@
 {
-  "short_name": "Medical Consumables",
-  "name": "Medical Consumables",
+  "short_name": "Pizza Shop",
+  "name": "Pizza Shop",
   "icons": [
     {
       "src": "favicon.ico",
@@ -11,7 +11,7 @@
       "src": "maskable.png",
       "type": "image/png",
       "sizes": "192x192",
-      "purpose": "maskable" 
+      "purpose": "any maskable"
     },
     {
       "src": "logo192.png",
@@ -34,7 +34,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "../build/index.html",
+  "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
