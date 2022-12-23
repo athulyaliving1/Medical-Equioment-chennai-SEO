@@ -1,2 +1,2 @@
 export const API_URL =
-  "https://contact-app-server-athulya.herokuapp.com/contact";
+  "https://contact-formserver-production.up.railway.app/contactmedicaleqchennai";
